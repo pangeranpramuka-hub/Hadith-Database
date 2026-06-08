@@ -1,6 +1,6 @@
 {
-  "version": 20240520,
-  "generated_at": "2024-05-20T12:00:00Z",
+  "version": 20240521,
+  "generated_at": "2024-05-21T08:00:00Z",
   "minimum_app_version": 1,
   "database_version": "1.0.0",
   "global_config": {
@@ -8,41 +8,36 @@
     "fallback_url": "https://raw.githubusercontent.com/pangeranpramuka-hub/Hadith-Database/main/"
   },
   "databases": [
-    {
-      "language_code": "id",
-      "language_name": "Bahasa Indonesia",
-      "file_name": "hadeethenc_id.db",
-      "file_size": 4200000,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "last_updated": "2024-05-20",
-      "is_active": true
-    },
-    {
-      "language_code": "en",
-      "language_name": "English",
-      "file_name": "hadeethenc_en.db",
-      "file_size": 4500000,
-      "sha256": "dca68297b69c761e3895e6f3b06c8b9826f582664530062a4d319808a9f65f37",
-      "last_updated": "2024-05-20",
-      "is_active": true
-    },
-    {
-      "language_code": "ar",
-      "language_name": "العربية",
-      "file_name": "hadeethenc_ar.db",
-      "file_size": 3800000,
-      "sha256": "b5bb9d8014a0f9b1d61e21e796d78dccdf1352f23cd32812f4850b878ae4944c",
-      "last_updated": "2024-05-20",
-      "is_active": true
-    },
-    {
-      "language_code": "fr",
-      "language_name": "Français",
-      "file_name": "hadeethenc_fr.db",
-      "file_size": 4100000,
-      "sha256": "7d559c4021743e9d4a36239102434033230485601c40846554605967000300c0",
-      "last_updated": "2024-05-20",
-      "is_active": true
-    }
+    { "language_code": "id", "language_name": "Bahasa Indonesia", "file_name": "hadeethenc_id.db", "file_size": 4200000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "en", "language_name": "English", "file_name": "hadeethenc_en.db", "file_size": 4500000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "ar", "language_name": "العربية", "file_name": "hadeethenc_ar.db", "file_size": 3800000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "fr", "language_name": "Français", "file_name": "hadeethenc_fr.db", "file_size": 4100000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "es", "language_name": "Español", "file_name": "hadeethenc_es.db", "file_size": 4000000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "tr", "language_name": "Türkçe", "file_name": "hadeethenc_tr.db", "file_size": 3900000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "ru", "language_name": "Русский", "file_name": "hadeethenc_ru.db", "file_size": 4300000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "ur", "language_name": "اردو", "file_name": "hadeethenc_ur.db", "file_size": 4100000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "bn", "language_name": "বাংলা", "file_name": "hadeethenc_bn.db", "file_size": 4200000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "zh", "language_name": "中文", "file_name": "hadeethenc_zh.db", "file_size": 3700000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "pt", "language_name": "Português", "file_name": "hadeethenc_pt.db", "file_size": 4000000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "de", "language_name": "Deutsch", "file_name": "hadeethenc_de.db", "file_size": 4100000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "it", "language_name": "Italiano", "file_name": "hadeethenc_it.db", "file_size": 4000000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "ja", "language_name": "日本語", "file_name": "hadeethenc_ja.db", "file_size": 3800000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "ko", "language_name": "한국어", "file_name": "hadeethenc_ko.db", "file_size": 3800000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "fa", "language_name": "فارسی", "file_name": "hadeethenc_fa.db", "file_size": 4000000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "ms", "language_name": "Bahasa Melayu", "file_name": "hadeethenc_ms.db", "file_size": 4100000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "th", "language_name": "ไทย", "file_name": "hadeethenc_th.db", "file_size": 3900000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "vi", "language_name": "Tiếng Việt", "file_name": "hadeethenc_vi.db", "file_size": 4200000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "hi", "language_name": "हिन्दी", "file_name": "hadeethenc_hi.db", "file_size": 4400000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "sw", "language_name": "Kiswahili", "file_name": "hadeethenc_sw.db", "file_size": 4000000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "sq", "language_name": "Shqip", "file_name": "hadeethenc_sq.db", "file_size": 3900000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "az", "language_name": "Azərbaycanca", "file_name": "hadeethenc_az.db", "file_size": 3900000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "bs", "language_name": "Bosanski", "file_name": "hadeethenc_bs.db", "file_size": 3900000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "ha", "language_name": "Hausa", "file_name": "hadeethenc_ha.db", "file_size": 4000000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "ml", "language_name": "മലയാളം", "file_name": "hadeethenc_ml.db", "file_size": 4400000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "si", "language_name": "සිංහල", "file_name": "hadeethenc_si.db", "file_size": 4300000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "ta", "language_name": "தமிழ்", "file_name": "hadeethenc_ta.db", "file_size": 4400000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "te", "language_name": "తెలుగు", "file_name": "hadeethenc_te.db", "file_size": 4400000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "yo", "language_name": "Yorùbá", "file_name": "hadeethenc_yo.db", "file_size": 4000000, "sha256": "", "last_updated": "2024-05-21", "is_active": true },
+    { "language_code": "am", "language_name": "አማርኛ", "file_name": "hadeethenc_am.db", "file_size": 4100000, "sha256": "", "last_updated": "2024-05-21", "is_active": true }
   ]
 }
