@@ -1,39 +1,48 @@
 {
-  "version": 1,
-  "generated_at": "2024-06-08T06:05:00Z",
-  "total_languages": 32,
-  "languages": [
-    "am",
-    "ar",
-    "az",
-    "bn",
-    "bs",
-    "de",
-    "en",
-    "es",
-    "fa",
-    "fr",
-    "ha",
-    "hi",
-    "id",
-    "ku",
-    "ml",
-    "ms",
-    "om",
-    "pa",
-    "ps",
-    "pt",
-    "ru",
-    "so",
-    "sq",
-    "sw",
-    "ta",
-    "te",
-    "th",
-    "tr",
-    "ur",
-    "uz",
-    "yo",
-    "zh"
+  "version": 20240520,
+  "generated_at": "2024-05-20T12:00:00Z",
+  "minimum_app_version": 1,
+  "database_version": "1.0.0",
+  "global_config": {
+    "primary_cdn": "https://cdn.jsdelivr.net/gh/pangeranpramuka-hub/Hadith-Database@main/",
+    "fallback_url": "https://raw.githubusercontent.com/pangeranpramuka-hub/Hadith-Database/main/"
+  },
+  "databases": [
+    {
+      "language_code": "id",
+      "language_name": "Bahasa Indonesia",
+      "file_name": "hadeethenc_id.db",
+      "file_size": 4200000,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "last_updated": "2024-05-20",
+      "is_active": true
+    },
+    {
+      "language_code": "en",
+      "language_name": "English",
+      "file_name": "hadeethenc_en.db",
+      "file_size": 4500000,
+      "sha256": "dca68297b69c761e3895e6f3b06c8b9826f582664530062a4d319808a9f65f37",
+      "last_updated": "2024-05-20",
+      "is_active": true
+    },
+    {
+      "language_code": "ar",
+      "language_name": "العربية",
+      "file_name": "hadeethenc_ar.db",
+      "file_size": 3800000,
+      "sha256": "b5bb9d8014a0f9b1d61e21e796d78dccdf1352f23cd32812f4850b878ae4944c",
+      "last_updated": "2024-05-20",
+      "is_active": true
+    },
+    {
+      "language_code": "fr",
+      "language_name": "Français",
+      "file_name": "hadeethenc_fr.db",
+      "file_size": 4100000,
+      "sha256": "7d559c4021743e9d4a36239102434033230485601c40846554605967000300c0",
+      "last_updated": "2024-05-20",
+      "is_active": true
+    }
   ]
 }
